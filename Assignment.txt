@@ -1,0 +1,39 @@
+Create an HTML5 web application in a Angular.js/React.js/Ember.js(Choose any one) framework which will be able to do the following:
+
+·  Authenticate with the Github API either using OAuth 2 or Basic Authentication,
+
+·  Show a list repositories for the logged in user.
+
+·  Show a list of files given selected repository at least in the root path
+
+·  Captured an image from webcam and show preview to the user
+
+·  Upload and commit the captured image to a repository
+
+Bonus :
+
+·  Capture and upload a video file from the webcam
+
+·  Innovative or fun features you want to showcase for ex: snapchat style filters, cropping, etc
+
+·  Mature functionality in your app, such as logout, back buttons, clean UI, etc
+
+You are also free to use any tool and set up your own environment as you like. Using CSS frameworks(With CSS Preprocessor preferably) such as Bootstrap, SemnaticUI and any third party js libraries are acceptable. However, if you are using advanced libraries starter-kits or out of the box client API / widget libraries, we would expect a more complete and mature implementation with something uniquely innovative in yours. We also expect test cases, well-implemented task runner (using Gulp/Grunt/ Webpack, etc), atomic commits, code and comment coverage in your final output.
+
+Feel free to reach out to us for any questions. Commit your code as a GitHub/Gitlab project and share with us after you complete
+
+Some links
+
+1.      Github API documentation (https://developer.github.com/v3/)
+
+2.      OAuth Auth (https://developer.github.com/v3/oauth_authorizations/)
+
+3.      Basic Auth (https://developer.github.com/v3/auth/)
+
+4.      List Repos (https://developer.github.com/v3/repos/#list-your-repositories)
+
+5.      List contents (https://developer.github.com/v3/repos/contents/)
+
+6.      Create a file (https://developer.github.com/v3/repos/contents/#create-a-file)
+
+7.      GetUserMedia (https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)
