@@ -1,0 +1,14 @@
+<!-- <router-outlet></router-outlet> -->
+<div>
+  <ul style="list-style-type:square;" *ngFor="let repo of respositories">
+    <li (click)="showContents(repo.name)">{{repo.name}}</li>
+  </ul>
+</div>
+<div>
+  <div>Contents</div>
+  <div>
+    <ul style="list-style-type:circle;" *ngFor="let content of repoContents">
+      <li>{{content.name}}</li>
+    </ul>
+  </div>
+</div>

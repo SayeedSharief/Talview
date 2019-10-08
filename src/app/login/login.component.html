@@ -1,0 +1,7 @@
+<div>
+  <input matInput [(ngModel)]="name" placeholder="User Name">
+  <input type="password" [(ngModel)]="password" placeholder="Password"/>
+  <!-- <input type="submit" routerLink="/home"  value="Login"/> -->
+  <input type="submit" (click)="login()"  value="Login"/>
+</div>
+
