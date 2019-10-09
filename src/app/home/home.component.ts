@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AppComponent } from '../app.component';
 import { HttpClient } from '@angular/common/http';
+import { LoginComponent } from '../login/login.component';
 
 @Component({
   selector: 'app-home',
@@ -14,12 +15,13 @@ export class HomeComponent implements OnInit {
   public respositories;
   public repoContents;
 
-  constructor(private router: Router, private app: AppComponent, private httpClient: HttpClient) { }
+  constructor(private router: Router, private app: AppComponent, private httpClient: HttpClient, private login: LoginComponent) { }
 
   ngOnInit() {
     this.httpClient.get(this.repoUrl).subscribe(res=> {
       this.respositories = res;
-      console.log('Repos =', this.respositories)
+      console.log('Repos =', this.respositories);
+      console.log('Name = ', this.login.name);
     })
   }
 

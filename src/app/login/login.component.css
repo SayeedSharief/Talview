@@ -1,0 +1,8 @@
+.loginDiv{
+    left: 50%;
+    top: 32%;
+    position: absolute;
+}
+#loginButton{
+    width: 100%;
+}
